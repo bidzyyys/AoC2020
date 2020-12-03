@@ -3,8 +3,6 @@ package com.bidzyyys.aoc2020
 import scala.io.Source
 
 object Day2 extends App {
-  val sum: Int = 2020
-
   val readLines: List[String] =
     Source.fromResource("day2.txt").getLines.toList
 
